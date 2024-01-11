@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Before running application ---- CUSTOM BUILD ----"
+exec /usr/libexec/s2i/run
