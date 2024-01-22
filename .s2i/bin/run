@@ -1,5 +1,4 @@
 #!/bin/bash
 echo "Before running application ---- CUSTOM BUILD ----"
-export APP_PORT=8080
-env
+TEST_ENV=8080
 exec /usr/libexec/s2i/run
