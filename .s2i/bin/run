@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Before running application ---- CUSTOM BUILD ----"
-export SERVER_PORT=8080
+export SERVER_PORT=8100
 exec /usr/libexec/s2i/run
