@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('Hello From Custom Node Server\n');
 });
 
-app.listen(8080, function () {
+app.listen(process.env.SERVER_PORT || 3000, function () {
   console.log('Example app listening on port 8080!');
 });
 
