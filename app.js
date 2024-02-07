@@ -6,6 +6,6 @@ app.get('/', function (req, res) {
 });
 
 app.listen(process.env.SERVER_PORT || 3000, function () {
-  console.log('Example app listening on port 8080!');
+  console.log('Example app listening on port' + (process.env.SERVER_PORT || "3000") +"!");
 });
 
